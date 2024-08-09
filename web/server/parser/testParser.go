@@ -6,8 +6,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/smartystreets/goconvey/convey/reporting"
-	"github.com/smartystreets/goconvey/web/server/contract"
+	"github.com/kuiche1982/goconvey/convey/reporting"
+	"github.com/kuiche1982/goconvey/web/server/contract"
 )
 
 type testParser struct {
@@ -73,7 +73,7 @@ func (self *testParser) processLine() bool {
 
 // If fmt.Print(f) produces output with no \n and that output
 // is that last output before the framework spits out json
-// (which starts with ''>>>>>'') then without this code
+// (which starts with ”>>>>>”) then without this code
 // all of the json is counted as output, not as json to be
 // parsed and displayed by the web UI.
 func (self *testParser) accountForOutputWithoutNewline() {
@@ -164,7 +164,7 @@ func panicLineShouldBeIndented(index int, line string) bool {
 const bugReportRequest = `
 Uh-oh! Looks like something went wrong. Please copy the following text and file a bug report at: 
 
-https://github.com/smartystreets/goconvey/issues?state=open
+https://github.com/kuiche1982/goconvey/issues?state=open
 
 ======= BEGIN BUG REPORT =======
 

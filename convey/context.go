@@ -4,7 +4,7 @@ import (
 	"fmt"
 
 	"github.com/jtolds/gls"
-	"github.com/smartystreets/goconvey/convey/reporting"
+	"github.com/kuiche1982/goconvey/convey/reporting"
 )
 
 type conveyErr struct {
@@ -61,9 +61,9 @@ func mustGetCurrentContext() *context {
 // It is tracked on the stack as goroutine-local-storage with the gls package,
 // or explicitly if the user decides to call convey like:
 //
-//   Convey(..., func(c C) {
-//     c.So(...)
-//   })
+//	Convey(..., func(c C) {
+//	  c.So(...)
+//	})
 //
 // This implements the `C` interface.
 type context struct {

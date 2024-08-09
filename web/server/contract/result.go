@@ -1,8 +1,8 @@
 package contract
 
 import (
-	"github.com/smartystreets/goconvey/convey/reporting"
-	"github.com/smartystreets/goconvey/web/server/messaging"
+	"github.com/kuiche1982/goconvey/convey/reporting"
+	"github.com/kuiche1982/goconvey/web/server/messaging"
 )
 
 type Package struct {

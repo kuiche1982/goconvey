@@ -1,10 +1,14 @@
 # SMARTY DISCLAIMER: Subject to the terms of the associated license agreement, this software is freely available for your use. This software is FREE, AS IN PUPPIES, and is a gift. Enjoy your new responsibility. This means that while we may consider enhancement requests, we may or may not choose to entertain requests at our sole and absolute discretion.
 
+#**Forked from github.com/kuiche1982/goconvey Aug 9 2024**
+
+Add code to handle IOMasterPort warning
+
 GoConvey is awesome Go testing
 ==============================
 
 [![Build Status](https://app.travis-ci.com/smartystreets/goconvey.svg?branch=master)](https://app.travis-ci.com/smartystreets/goconvey)
-[![GoDoc](https://godoc.org/github.com/smartystreets/goconvey?status.svg)](http://godoc.org/github.com/smartystreets/goconvey)
+[![GoDoc](https://godoc.org/github.com/kuiche1982/goconvey?status.svg)](http://godoc.org/github.com/kuiche1982/goconvey)
 
 
 Welcome to GoConvey, a yummy Go testing tool for gophers. Works with `go test`. Use it in the terminal or browser according to your viewing pleasure.
@@ -41,9 +45,9 @@ You can ask questions about how to use GoConvey on [StackOverflow](http://stacko
 Installation
 ------------
 
-	$ go install github.com/smartystreets/goconvey
+	$ go install github.com/kuiche1982/goconvey
 
-[Quick start](https://github.com/smartystreets/goconvey/wiki#get-going-in-25-seconds)
+[Quick start](https://github.com/kuiche1982/goconvey/wiki#get-going-in-25-seconds)
 -----------
 
 Make a test, for example:
@@ -53,7 +57,7 @@ package package_name
 
 import (
     "testing"
-    . "github.com/smartystreets/goconvey/convey"
+    . "github.com/kuiche1982/goconvey/convey"
 )
 
 func TestSpec(t *testing.T) {
@@ -74,7 +78,7 @@ func TestSpec(t *testing.T) {
 ```
 
 
-#### [In the browser](https://github.com/smartystreets/goconvey/wiki/Web-UI)
+#### [In the browser](https://github.com/kuiche1982/goconvey/wiki/Web-UI)
 
 Start up the GoConvey web server at your project's path:
 
@@ -95,11 +99,11 @@ As long as GoConvey is running, test results will automatically update in your b
 The design is responsive, so you can squish the browser real tight if you need to put it beside your code.
 
 
-The [web UI](https://github.com/smartystreets/goconvey/wiki/Web-UI) supports traditional Go tests, so use it even if you're not using GoConvey tests.
+The [web UI](https://github.com/kuiche1982/goconvey/wiki/Web-UI) supports traditional Go tests, so use it even if you're not using GoConvey tests.
 
 
 
-#### [In the terminal](https://github.com/smartystreets/goconvey/wiki/Execution)
+#### [In the terminal](https://github.com/kuiche1982/goconvey/wiki/Execution)
 
 Just do what you do best:
 
@@ -110,16 +114,16 @@ Or if you want the output to include the story:
     $ go test -v
 
 
-[Documentation](https://github.com/smartystreets/goconvey/wiki)
+[Documentation](https://github.com/kuiche1982/goconvey/wiki)
 -----------
 
 Check out the
 
-- [GoConvey wiki](https://github.com/smartystreets/goconvey/wiki),
-- [![GoDoc](https://godoc.org/github.com/smartystreets/goconvey?status.png)](http://godoc.org/github.com/smartystreets/goconvey)
+- [GoConvey wiki](https://github.com/kuiche1982/goconvey/wiki),
+- [![GoDoc](https://godoc.org/github.com/kuiche1982/goconvey?status.png)](http://godoc.org/github.com/kuiche1982/goconvey)
 - and the *_test.go files scattered throughout this project.
 
 Contributors
 ----------------------
 
-GoConvey is brought to you by [SmartyStreets](https://github.com/smartystreets) and [several contributors](https://github.com/smartystreets/goconvey/graphs/contributors) (Thanks!).
+GoConvey is brought to you by [SmartyStreets](https://github.com/smartystreets) and [several contributors](https://github.com/kuiche1982/goconvey/graphs/contributors) (Thanks!).

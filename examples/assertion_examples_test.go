@@ -6,7 +6,7 @@ import (
 	"testing"
 	"time"
 
-	. "github.com/smartystreets/goconvey/convey"
+	. "github.com/kuiche1982/goconvey/convey"
 )
 
 func TestAssertionsAreAvailableFromConveyPackage(t *testing.T) {

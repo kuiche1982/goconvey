@@ -5,8 +5,8 @@ import (
 	"testing"
 	"time"
 
-	. "github.com/smartystreets/goconvey/convey"
-	"github.com/smartystreets/goconvey/web/server/contract"
+	. "github.com/kuiche1982/goconvey/convey"
+	"github.com/kuiche1982/goconvey/web/server/contract"
 )
 
 func TestExecutor(t *testing.T) {
@@ -78,8 +78,8 @@ func (self *ExecutorFixture) ResultShouldBePopulated() {
 
 var (
 	prefix   = "/Users/blah/gopath/src/"
-	packageA = "github.com/smartystreets/goconvey/a"
-	packageB = "github.com/smartystreets/goconvey/b"
+	packageA = "github.com/kuiche1982/goconvey/a"
+	packageB = "github.com/kuiche1982/goconvey/b"
 	resultA  = &contract.PackageResult{PackageName: packageA}
 	resultB  = &contract.PackageResult{PackageName: packageB}
 )
