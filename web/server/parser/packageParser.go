@@ -47,6 +47,15 @@ func (self *outputParser) parse() {
 
 func (self *outputParser) separateTestFunctionsAndMetadata() {
 	for _, self.line = range self.lines {
+		if strings.HasPrefix(self.line, "# github.com/shirou/gopsutil/disk") {
+			continue
+		}
+		if strings.Contains(self.line, "warning: 'IOMasterPort' is deprecated") {
+			continue
+		}
+		if strings.Contains(self.line, "'IOMasterPort' has been explicitly marked deprecated") {
+			continue
+		}
 		if self.processNonTestOutput() {
 			break
 		}
